@@ -81,14 +81,16 @@ class LeaderBoardComponent extends React.Component {
     render() {
         if (this.state.serverError) {
             return (
-                <div>We're sorry, but we can't display game statistics at this
-                    moment.</div>
+                <div className="container display-column mt-3 mw-100">
+                    We're sorry, but we can't display game statistics at this
+                    moment.
+                </div>
             );
         }
         return (
-            <div>
+            <div className="container display-column mt-3 mw-100">
                 <h3>Leaderboard</h3>
-                <table>
+                <table className="table">
                     <thead>
                     <tr>
                         <th>User</th>
