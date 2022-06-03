@@ -17,6 +17,16 @@ th {
   font-size: x-small;
   border: 2px solid dodgerblue;
   border-radius: 4px;
-  padding: 0.2em;
-  margin: 0.1em;
+  padding: 0.5em;
+  margin: 0.5em;
+  color: black;
+}
+
+input {
+  width: 100%;
+}
+
+.container {
+  width: 50%;
+  max-width: 50%;
 }

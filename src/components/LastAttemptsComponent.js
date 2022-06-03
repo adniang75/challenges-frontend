@@ -4,7 +4,8 @@ class LastAttemptsComponent extends React.Component {
 
     render() {
         return (
-            <table>
+            <div className="container display-column mt-3 mw-100">
+                <table className="table">
                 <thead>
                 <tr>
                     <th>Challenge</th>
@@ -24,6 +25,7 @@ class LastAttemptsComponent extends React.Component {
                 )}
                 </tbody>
             </table>
+            </div>
         );
     }
 }
